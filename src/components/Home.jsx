@@ -1,23 +1,22 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import Surfer from '../images/mysurfer.png';
-import Bounce from 'react-reveal/Bounce';
-import RubberBand from 'react-reveal/RubberBand';
+import Fade from 'react-reveal/Fade';
 
 
 
 const Home = () => {
   return (
     <div className='h-screen'>
-      <Bounce bottom>
+      <Fade left>
         <h1 className='text-5xl pt-20 text-center md:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
             Solana Surfers
           </h1>
-        </Bounce>
-        <Bounce left>
+        </Fade>
+        <Fade bottom>
             <p className='p-10 text-center text-white'>We are an OG collection of 4444 generative surfers inspired by Solana beach and pixel art. 
             </p>
-            </Bounce>
+            </Fade>
    <div className='Pitted p-5 text-2xl text-center text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
    <Typewriter 
           options={{
@@ -34,9 +33,9 @@ const Home = () => {
           />
    </div>
    <div className='flex justify-center py-10'>
-   <RubberBand>
+   <Fade bottom>
     <img src={Surfer} alt='' className='rounded-lg'/>
-    </RubberBand>
+    </Fade>
    </div>
     </div>
   )
