@@ -9,15 +9,15 @@ const Home = () => {
   return (
     <div className='h-screen'>
       <Fade left>
-        <h1 className='text-5xl pt-20 text-center md:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
+        <h1 className='text-5xl pt-20 text-center md:text-7xl text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
             Solana Surfers
           </h1>
         </Fade>
         <Fade bottom>
-            <p className='p-10 text-center text-white'>We are an OG collection of 4444 generative surfers inspired by Solana beach and pixel art. 
+            <p className='p-10 text-center md:text-4xl text-white'>We are an OG collection of 4444 generative surfers inspired by Solana beach and pixel art. 
             </p>
             </Fade>
-   <div className='Pitted p-5 text-2xl text-center text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
+   <div className='Pitted p-5 text-2xl md:text-4xl text-center text-transparent bg-clip-text bg-gradient-to-br from-blue-600 via-blue-400 to-white'>
    <Typewriter 
           options={{
               loop: true,
