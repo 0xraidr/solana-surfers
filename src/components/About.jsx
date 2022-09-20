@@ -7,7 +7,7 @@ const About = () => {
     <div className='mt-10'>
         <div>
             <Fade left>
-             <h1 className='pt-5 text-center text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-white'>
+             <h1 className='pt-5 text-center text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 via-amber-200 to-purple-400'>
                     About
              </h1>
             </Fade>
