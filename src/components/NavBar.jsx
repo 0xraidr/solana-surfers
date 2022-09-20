@@ -55,8 +55,8 @@ const Navbar = () => {
 
           {links.map(({id, link, ext}) => (
             <div key={id}>
-                <a className='flex justify-center text-3xl' href={ext} target='_blank' rel='noreferrer'>
-                    <button className='w-1/2 px-6 py-3 m-4 duration-200
+                <a className='flex justify-center text-2xl' href={ext} target='_blank' rel='noreferrer'>
+                    <button className='px-6 py-3 m-4 duration-200
                     hover:scale-105'>{link}</button>
                 
                 </a>
