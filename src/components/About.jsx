@@ -1,13 +1,10 @@
 import React from 'react'
-import surfer2 from '../images/surfer2.png';
-import surfer3 from '../images/surfer3.png';
-import surfer4 from '../images/surfer4.png';
 import surfbackground from '../images/bgsurfer.jpeg';
 import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <div className=''>
+    <div className='mt-10'>
         <div>
             <Fade left>
              <h1 className='pt-5 text-center text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-white'>

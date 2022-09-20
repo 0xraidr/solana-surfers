@@ -11,6 +11,8 @@ module.exports = {
       },
       colors: {
         'surf-blue': '#98c1d9',
+        'water-blue':'#44728D',
+        'sand': '#E6D9A5'
       },
     },
   },
