@@ -10,12 +10,12 @@ const Home = () => {
 <img className='w-full h-screen object-cover absolute' src={Background} alt="" />
     <div className='backdrop-blur-[2px] bg-water-blue/25'>
       <Fade left>
-        <h1 className='text-3xl pt-10 text-center md:text-4xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 via-amber-200 to-purple-400'>
+        <h1 className='text-3xl px-3 pt-10 text-center md:text-4xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 via-amber-200 to-purple-400'>
                 Solana Surfers
         </h1>
         </Fade>
           <Fade bottom>
-          <p className='pt-10 px-15 text-center md:text-3xl text-white'>We are an OG collection of 4,444 generative surfers inspired by Solana beach and pixel art. 
+          <p className='pt-10 px-3 text-center md:text-3xl text-white'>We are an OG collection of 4,444 generative surfers inspired by Solana beach and pixel art. 
           </p>
         </Fade>
       </div>

@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className='font-sans text-xs text-center py-3 text-white'>
             <a href='https://twitter.com/0xraidr'>
-            <p className=''>Designed and built by 0xraidr</p>
+            <p className='hover:text-pink-200'>Designed and built by 0xraidr</p>
             </a>
         </div>
         </div>
