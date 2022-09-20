@@ -28,6 +28,12 @@ const Navbar = () => {
       link: 'Magic Eden',
       ext: 'https://magiceden.io/creators/surfers'
     },
+    {
+      id: 5,
+      link: 'Trading',
+      ext: 'https://dreamtools.app/collections/solana_surfers'
+    },
+    
   ]
 
 
