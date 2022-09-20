@@ -20,6 +20,11 @@ const Navbar = () => {
     },
     {
       id: 3,
+      link: 'Rarity',
+      ext: 'https://howrare.is/solanasurfers'
+    },
+    {
+      id: 4,
       link: 'Magic Eden',
       ext: 'https://magiceden.io/creators/surfers'
     },
