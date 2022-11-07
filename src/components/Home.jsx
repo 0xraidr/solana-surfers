@@ -1,29 +1,41 @@
-import React from 'react'
-import Fade from 'react-reveal/Fade';
-import Background from '../images/surferbg.png';
-
-
+import React from "react";
+import Fade from "react-reveal/Fade";
+import firstbg from "../images/firstbg.jpg";
+import melogo from "../images/goodmelogo.png";
 
 const Home = () => {
   return (
-  <div className='grid place-items-center pb-10 h-screen grayscale-0'>
-<img className='w-full h-screen object-cover absolute' src={Background} alt="" />
-    <div className='backdrop-blur-[2px] bg-water-blue/25'>
-      <Fade left>
-        <h1 className='text-3xl px-3 pt-10 text-center md:text-4xl text-transparent bg-clip-text bg-gradient-to-br from-amber-400 via-amber-200 to-purple-400'>
-                Solana Surfers
-        </h1>
-        </Fade>
-          <Fade bottom>
-          <p className='pt-10 px-3 text-center md:text-3xl text-white'>We are an OG collection of 4,444 generative surfers inspired by Solana beach and pixel art. 
-          </p>
+    <div className="pb-10 h-screen">
+      <img
+        className="w-full h-screen object-cover absolute"
+        src={firstbg}
+        alt="firstbg"
+      />
+      <div className="grid w-1/2">
+        <Fade left>
+          <h1 className="text-6xl pl-10 pt-10 md:text-7xl">Welcome Surfers!</h1>
+          <div className="pt-10 pl-10 text-l md:text-l">
+            Sit back and enjoy the ride around Solana Beach
+          </div>
+          <div className="p-8">
+            <p className="text-lg">Check out our Collection</p>
+            <div className="">
+              <a
+                href="https://www.magiceden.io/creators/surfers"
+                className="hover:cursor-pointer"
+              >
+                <img
+                  src={melogo}
+                  alt="me"
+                  style={{ width: 150, height: 100 }}
+                />
+              </a>
+            </div>
+          </div>
         </Fade>
       </div>
     </div>
-  )
-}
+  );
+};
 
-
-export default Home
-
-
+export default Home;
