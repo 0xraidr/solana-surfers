@@ -16,15 +16,15 @@ const SolanaSurfers = () => {
       <div className="flex justify-start sun absolute md:hidden">
         <img className="pixelImg h-128 w-full" src={sunny} alt="surfers" />
       </div>
-      <div className="grid md:grid-cols-3 md:items-center md:pt-20">
+      <div className="grid md:grid-cols-3 items-center md:pt-20">
         <Fade left>
           <img
-            className="pixelImg h-128 w-full"
+            className="pixelImg md:pl-20 h-128 w-full"
             src={pixelgroup}
             alt="surfers"
           />
-          <div className="pt-10">
-            <h1 className="text-2xl md:text-left text-center md:text-6xl">
+          <div className="pt-10 md:pl-20 w-full">
+            <h1 className="text-2xl md:text-left text-center md:text-6xl ">
               Solana Surfers
             </h1>
             <p className="md:text-lg pt-10 md:text-left text-center">
