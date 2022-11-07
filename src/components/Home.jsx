@@ -13,16 +13,14 @@ const Home = () => {
       />
       <div className="grid w-1/2">
         <Fade left>
-          <h1 className="text-lg pl-10 pt-10 md:text-6xl md:text-left text-center">
+          <h1 className="text-4xl pl-10 pt-10 md:text-6xl md:text-left text-center">
             Welcome Surfers!
           </h1>
-          <div className="pt-10 pl-10 text-sm md:text-2xl md:text-left text-center">
+          <div className="pt-10 pl-10 text-sm md:text-2xl md:text-left">
             Sit back and enjoy the ride around Solana Beach
           </div>
           <div className="p-8">
-            <p className="text-md md:text-left text-center">
-              Check out our Collection
-            </p>
+            <p className="text-md md:text-left">Check out our Collection</p>
             <div className="">
               <a
                 href="https://www.magiceden.io/creators/surfers"

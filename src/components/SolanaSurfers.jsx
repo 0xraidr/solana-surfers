@@ -23,7 +23,7 @@ const SolanaSurfers = () => {
             src={pixelgroup}
             alt="surfers"
           />
-          <div className="pt-10 md:pl-20 w-full">
+          <div className=" md:pl-20 w-full">
             <h1 className="text-2xl md:text-left text-center md:text-6xl ">
               Solana Surfers
             </h1>
