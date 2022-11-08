@@ -16,7 +16,7 @@ const SolanaSurfers = () => {
       <div className="flex justify-start sun absolute md:hidden">
         <img className="pixelImg h-128 w-full" src={sunny} alt="surfers" />
       </div>
-      <div className="grid md:grid-cols-3 items-center md:pt-20">
+      <div className="md:grid md:grid-cols-2 items-center md:pt-20">
         <Fade left>
           <img
             className="pixelImg md:pl-20 h-128 w-full"

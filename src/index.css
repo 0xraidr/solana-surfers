@@ -14,10 +14,9 @@ p {
   font-family: "Source Sans Pro", "sans-seriff";
 }
 
-/* .pixelImg {
-  height: auto;
-  width: auto;
-} */
+.trippy {
+  font-family: "Source Sans Pro", "sans-seriff";
+}
 
 @tailwind base;
 @tailwind components;

@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import SolanaSurfers from "./components/SolanaSurfers";
+import TrippySurfers from "./components/TrippySurfers";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Home />
         <SolanaSurfers />
+        <TrippySurfers />
         <Footer />
       </div>
     </div>
