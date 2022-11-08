@@ -3,7 +3,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="">
+    <div className="text-white bg-footerColor">
       <div className="pt-5 flex justify-center text-xl text-white">
         <div className="px-2">
           <a href="https://twitter.com/SolanaSurfers">

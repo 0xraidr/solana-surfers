@@ -12,6 +12,7 @@ module.exports = {
         "water-blue": "#44728D",
         sand: "#E6D9A5",
         newBg: "#e1f3fd",
+        footerColor: "#11010e",
       },
     },
   },
