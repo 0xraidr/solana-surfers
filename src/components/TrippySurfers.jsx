@@ -17,6 +17,20 @@ const TrippySurfers = () => {
               4,444 Trippy Surfers. Drop in. Get Pitted! WOOPAH! <br />
               Our OG Surfer Collection
             </p>
+            <div className="flex pt-10 justify-center">
+              <button className="bg-slate-600 border-buttonBorder border-2 rounded-md">
+                <a
+                  href="https://www.magiceden.io/creators/surfers"
+                  className="hover:cursor-pointer"
+                >
+                  <img
+                    className="text-black w-40"
+                    src="https://magiceden.io/static/media/logo.ca418d755e6ce4e95fd276056b9285f2.svg"
+                    alt="me"
+                  />
+                </a>
+              </button>
+            </div>
           </div>
           <div>
             <img src={trippy} alt="trippy" className="h-128 w-full" />

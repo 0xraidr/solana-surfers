@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import firstbg from "../images/firstbg.jpg";
+import button from "../images/button.png";
 import melogo from "../images/goodmelogo.png";
 
 const Home = () => {
@@ -22,16 +23,24 @@ const Home = () => {
           <div className="p-8">
             <p className="text-md md:text-left">Check out our Collection</p>
             <div className="">
-              <a
+              {/* <a
                 href="https://www.magiceden.io/creators/surfers"
                 className="hover:cursor-pointer"
               >
-                <img
-                  src={melogo}
-                  alt="me"
-                  style={{ width: 150, height: 100 }}
-                />
-              </a>
+                <img src={button} alt="me" />
+              </a> */}
+              <button className="bg-slate-600 border-buttonBorder border-2 rounded-md">
+                <a
+                  href="https://www.magiceden.io/creators/surfers"
+                  className="hover:cursor-pointer"
+                >
+                  <img
+                    className="text-black w-40"
+                    src="https://magiceden.io/static/media/logo.ca418d755e6ce4e95fd276056b9285f2.svg"
+                    alt="me"
+                  />
+                </a>
+              </button>
             </div>
           </div>
         </Fade>
