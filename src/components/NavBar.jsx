@@ -35,7 +35,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex p-14 text-sm justify-between items-center w-full h-10 bg-newBg relative px-3">
+    <div className="flex p-7 text-sm justify-between items-center w-full h-10 bg-newBg relative px-3">
       <div>
         <img className="" src={blklogo} />
       </div>
