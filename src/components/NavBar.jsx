@@ -39,26 +39,27 @@ const Navbar = () => {
       <div>
         <img className="" src={blklogo} />
       </div>
-
-      <ul className="hidden md:flex">
-        {links.map(({ id, link, ext }) => (
-          <div key={id}>
-            <a
-              className="flex text-xs justify-between px-6 cursor-pointer hover:text-pink-200"
-              href={ext}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button
-                className=" px-6 py-3 m-4 duration-200
-                hover:scale-105"
+      <div className="text-black rounded-full bg-containerColor">
+        <ul className="hidden md:flex">
+          {links.map(({ id, link, ext }) => (
+            <div key={id}>
+              <a
+                className="flex text-xs justify-between px-6 cursor-pointer hover:text-pink-200"
+                href={ext}
+                target="_blank"
+                rel="noreferrer"
               >
-                {link}
-              </button>
-            </a>
-          </div>
-        ))}
-      </ul>
+                <button
+                  className=" px-6 py-3 m-4 duration-200
+                hover:scale-105"
+                >
+                  {link}
+                </button>
+              </a>
+            </div>
+          ))}
+        </ul>
+      </div>
 
       <div
         onClick={() => setNav(!nav)}

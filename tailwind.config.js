@@ -15,6 +15,7 @@ module.exports = {
         footerColor: "#11010e",
         buttonColor: "#43d1f7",
         buttonBorder: "#6f3991",
+        containerColor: "#e1ecfd",
       },
     },
   },

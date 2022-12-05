@@ -3,14 +3,15 @@ import Fade from "react-reveal/Fade";
 import firstbg from "../images/firstbg.jpg";
 import button from "../images/button.png";
 import melogo from "../images/goodmelogo.png";
+import ssbg from "../images/ssbg.png";
 
 const Home = () => {
   return (
     <div className="pb-10 h-screen">
       <img
         className="w-full h-screen md:object-cover absolute"
-        src={firstbg}
-        alt="firstbg"
+        src={ssbg}
+        alt="ssbg"
       />
       <div className="grid w-1/2">
         <Fade left>
